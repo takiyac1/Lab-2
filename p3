@@ -1,0 +1,15 @@
+string x;
+Console.WriteLine("Enter the code:");
+x = (Console.ReadLine());
+while (x != "13579")
+{
+    Console.WriteLine("Enter the code:");
+    x = (Console.ReadLine());
+
+
+
+}
+
+
+Console.WriteLine("Welcome");
+
