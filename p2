@@ -1,0 +1,26 @@
+string ans;
+do
+{
+    Console.WriteLine("Enter a number:");
+
+    int n;
+    n = int.Parse(Console.ReadLine());
+    for (int i = 1; i <= n; i++)
+    { Console.WriteLine(i); }
+    Console.WriteLine();
+    for (int i = 1; i <= n; n--)
+    { Console.WriteLine(n); }
+     
+
+    Console.WriteLine("Would you like to continue (y/n)?");
+         ans = Console.ReadLine();
+    Console.WriteLine(ans.ToLower());
+
+    if (ans == "y")
+    {
+        continue;
+    }
+
+}
+while (ans != "n");
+
