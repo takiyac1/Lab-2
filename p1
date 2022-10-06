@@ -1,0 +1,17 @@
+
+using System.IO.Pipes;
+string ans;
+do
+{
+    Console.WriteLine("Hello World!");
+    Console.WriteLine("Would you like to continue (y/n)?");
+    ans = Console.ReadLine();
+    Console.WriteLine(ans.ToLower());
+
+    if (ans == "y")
+    {
+        continue;
+    }
+
+}
+while (ans != "n");
